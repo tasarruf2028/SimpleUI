@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.container{
+    width: 600px;
+    background: #fff;
+    padding: 20px 28px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.container .source-que{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.source-que p{
+    font-size: .8rem;
+    color: #6d6d6d;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+input{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background: #e3e3e3;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+input:hover{
+    background-color: #cec1c1;
+}
+
+#python{
+    background: #ff2626;
+    transition: all .4s ease;
+}
+
+#python:hover{
+    background: #ff1616;
+}
+
+#js{
+    background: #01ad3b;
+    transition: all .4s ease;
+}
+
+#js:hover{
+    background: #00a738;
+}
+
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.button button{
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #8000ff;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+button:hover{
+    background: #6701cd;
+}
